@@ -1,6 +1,6 @@
 # 提交与发布
 
-提交信息遵循 [Conventional Commits 1.0.0](https://www.conventionalcommits.org/zh-hans/v1.0.0/)，版本号遵循[语义化版本 2.0.0](https://semver.org/lang/zh-CN/)。版本号、简体中文更新日志 `changelog/zh-CN.md` 和 GitHub Release 都由提交信息生成，所以提交信息的格式直接决定发布说明。`changelog/` 下其他语言的更新日志按 `locales/` 的语言标签命名（`zh-TW.md`、`en-US.md`、`es-ES.md`、`de-DE.md`、`ja-JP.md`、`fr-FR.md`、`ru-RU.md`），与中文版逐条对应，发布时由中文条目翻译而来。各语言的名称与小节标题在 `resources/changelog.json` 中维护，发布脚本、应用和官网按这份表区分新功能、修复等小节。
+提交信息遵循 [Conventional Commits 1.0.0](https://www.conventionalcommits.org/zh-hans/v1.0.0/)，版本号遵循[语义化版本 2.0.0](https://semver.org/lang/zh-CN/)。版本号、简体中文更新日志 `changelog/zh-CN.md` 和 GitHub Release 都由提交信息生成，所以提交信息的格式直接决定发布说明。`changelog/` 下其他语言的更新日志按 `locales/` 的语言标签命名（`zh-TW.md`、`en-US.md`、`es-ES.md`、`de-DE.md`、`ja-JP.md`、`ko-KR.md`、`fr-FR.md`、`ru-RU.md`），与中文版逐条对应，发布时由中文条目翻译而来。各语言的名称与小节标题在 `resources/changelog.json` 中维护，发布脚本、应用和官网按这份表区分新功能、修复等小节。
 
 ## 持续集成
 
